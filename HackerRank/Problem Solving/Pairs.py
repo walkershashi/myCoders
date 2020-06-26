@@ -4,7 +4,6 @@ import random
 import re
 import sys
 
-# Complete the pairs function below.
 def pairs(k, arr):
 
     arr_set = set(arr)
