@@ -34,7 +34,7 @@ def encrypt(s):
     
     encrypted_string = []
     for i in range(len(res[0])):
-        s = ''
+        s = str()
         for word in res:
             s += word[i]
         encrypted_string.append(s.replace(" ", ""))
