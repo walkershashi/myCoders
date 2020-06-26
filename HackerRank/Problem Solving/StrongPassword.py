@@ -1,5 +1,3 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-
 def checkPassword(string):
     size = 0
     if len(string) < 6:
