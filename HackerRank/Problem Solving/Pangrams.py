@@ -10,10 +10,9 @@ import collections
 # Complete the pangrams function below.
 def pangrams(s):
     s = s.lower()
-    counter = collections.Counter(s)
-    # There will be a space character as a key in the counter dictionary 
-    # So subtract one
-    if len(counter) - 1 == 26:
+    s = set(s)
+    # There will be a space character in the set, So subtract one
+    if len(s) - 1 == 26:
         return "pangram"
 
     else:
